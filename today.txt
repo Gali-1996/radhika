@@ -1,0 +1,8 @@
+---
+ - hosts: remote
+   tasks:
+   - name: create repository namefile
+   file:
+      path: "/user/radhika/sample.txt"
+      status: touch
+---
