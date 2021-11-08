@@ -9,4 +9,6 @@
      with_items:
      - access.log
      - systemd.log
+     - santhu.log
+     - radhika.log
      
