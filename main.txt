@@ -1,0 +1,14 @@
+---
+ - hosts: remote
+   tasks: 
+   - name: copy a file from one to another data
+     file: 
+       path: "/home/ansible/text.txt"
+       state: touch
+       mode: 0775
+     with_items:
+     - access.log
+     - systemd.log
+     - santhu.log
+     - radhika.log
+     
